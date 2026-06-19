@@ -26,12 +26,19 @@ the app uses each tool for what it's best at.
 
 - **Google Chrome** installed and reasonably up to date. (Selenium 4.6+
   auto-downloads the matching `chromedriver` for you — no manual driver setup.)
-- **ffmpeg** — required for MP3 conversion. Either:
-  - put `ffmpeg.exe` (and `ffprobe.exe`) in an `ffmpeg\` folder next to the app /
-    this project (recommended — makes the app self-contained), **or**
+- **ffmpeg** — required for MP3 conversion. Easiest option:
+
+  ```powershell
+  powershell -ExecutionPolicy Bypass -File .\setup-ffmpeg.ps1
+  ```
+
+  This downloads a static build (checksum-verified) and places `ffmpeg.exe` +
+  `ffprobe.exe` into `ffmpeg\` automatically. Alternatively you can:
+  - drop `ffmpeg.exe` / `ffprobe.exe` into an `ffmpeg\` folder yourself, **or**
   - install ffmpeg and make sure it's on your system `PATH`.
-  - Get static Windows builds from <https://www.gyan.dev/ffmpeg/builds/> (the
-    "release essentials" zip) or <https://github.com/BtbN/FFmpeg-Builds/releases>.
+
+  Manual download links: <https://www.gyan.dev/ffmpeg/builds/> (the "release
+  essentials" zip) or <https://github.com/BtbN/FFmpeg-Builds/releases>.
 
 ---
 

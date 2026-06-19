@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# PyInstaller build output
+build/
+dist/
+
+# Bundled ffmpeg binaries — large; downloaded separately (see README)
+ffmpeg/
+
+# Windows shortcuts (machine-specific absolute paths)
+*.lnk
+
+# Logs / scratch
+*.log

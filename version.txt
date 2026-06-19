@@ -1,0 +1,34 @@
+# UTF-8
+#
+# Embedded Windows version resource. Giving the executable real metadata makes
+# it look like normal software and reduces Windows Defender false positives.
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040904B0',
+        [
+          StringStruct('CompanyName', 'Personal Tools'),
+          StringStruct('FileDescription', 'YouTube Playlist to MP3 Downloader'),
+          StringStruct('FileVersion', '1.0.0.0'),
+          StringStruct('InternalName', 'YTPlaylistMP3'),
+          StringStruct('LegalCopyright', 'For personal use only.'),
+          StringStruct('OriginalFilename', 'YTPlaylistMP3.exe'),
+          StringStruct('ProductName', 'YT Playlist MP3 Downloader'),
+          StringStruct('ProductVersion', '1.0.0.0')
+        ]
+      )
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)

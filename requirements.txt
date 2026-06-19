@@ -1,0 +1,3 @@
+# Runtime dependencies (tkinter ships with python.org CPython)
+selenium>=4.16
+yt-dlp>=2024.08.06
